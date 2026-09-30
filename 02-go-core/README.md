@@ -3,15 +3,16 @@
 ## 目标
 从“会写语法”进入“会组织 Go 代码”。
 
-## 核心知识
-- struct
-- method
+## 学习前先读
+进入 [knowledge/README.md](./knowledge/README.md)。
+
+知识目录包含：
+- struct / method
 - value receiver / pointer receiver
-- interface
-- embedding
-- error
-- errors.Is / errors.As
+- interface / embedding
+- error / errors.Is / errors.As
 - defer
+- Python → Go 抽象差异
 
 ## 阶段项目
 实现一个命令行学生管理系统：新增、删除、修改、查询、列表。
