@@ -3,16 +3,16 @@
 ## 目标
 掌握 Go 最核心的并发模型。
 
-## 核心知识
-- goroutine
-- sync.WaitGroup
+## 学习前先读
+进入 [knowledge/README.md](./knowledge/README.md)。
+
+知识目录包含：
+- goroutine / WaitGroup
 - channel
-- buffered channel
-- select
-- sync.Mutex
+- select / timeout
+- Mutex / race detector
 - context
-- worker pool
-- race detector
+- worker pool / goroutine 泄漏等常见坑
 
 ## 阶段项目
 实现一个并发任务执行器 / 下载器模拟器，支持并发限制、超时取消、结果统计。
