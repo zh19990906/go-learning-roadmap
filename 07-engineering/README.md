@@ -3,17 +3,16 @@
 ## 目标
 把“能运行”提升为“可维护、可测试、可部署”。
 
-## 核心知识
+## 学习前先读
+进入 [knowledge/README.md](./knowledge/README.md)。
+
+知识目录包含：
 - 配置管理
 - structured logging
-- 单元测试
-- mock / fake
-- go test -race
 - graceful shutdown
-- Docker
-- Makefile
-- CI 基础
-- 项目目录设计
+- test / mock / race
+- Docker / Makefile / CI
+- 项目结构与工程注意点
 
 ## 阶段项目
 为 Todo 服务补齐日志、配置、测试、Docker 与优雅关闭。
